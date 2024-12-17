@@ -44,15 +44,15 @@ A modern task management application built with React, Node.js, Express, and Mon
 ## 📁 Project Structure
 
 ```
-task-manager/
-├── frontend/
+TaskManager/
+├── Frontend/
 │   ├── src/
 │   │   ├── App.jsx
 │   │   ├── main.jsx
 │   │   └── index.css
 │   ├── .env
 │   └── package.json
-├── backend/
+├── Backend/
 │   ├── src/
 │   │   ├── config/
 │   │   │   └── index.js
@@ -80,8 +80,8 @@ task-manager/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/task-manager.git
-cd task-manager
+git clone https://github.com/mohannn-sys/TaskManager.git
+cd TaskManager
 ```
 
 2. Install backend dependencies:
@@ -92,7 +92,7 @@ npm install
 
 3. Install frontend dependencies:
 ```bash
-cd ../frontend
+cd ..Frontend
 npm install
 ```
 
@@ -189,13 +189,13 @@ NODE_ENV=development|production
 1. Start MongoDB service
 2. Start backend:
 ```bash
-cd backend
+cd Backend
 npm run dev
 ```
 
 3. Start frontend:
 ```bash
-cd frontend
+cd Frontend
 npm run dev
 ```
 
